@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	font-size: 72pt;
+	color: white;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	line-height: 160px;
+}
+
+#game {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #aed;
+	border-radius: 20px;
+}
+
+.box {
+	width: 160px;
+	height: 160px;
+	margin: 20px;
+	float: left;
+	border: 2px solid #bfe;
+	border-radius: 10px;
+}
+
+.box:hover {
+	background-color: #bfe;
+}
+
+#turner {
+	width: 200px;
+	height: 600px;
+	margin: auto;
+	margin-left: 20%;
+	float: left;
+}
+
+#turn {
+	border-radius: 20px;
+	background-color: #aed;
+	margin-top: 200px;
+	height: 200px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 200px;
+}
+
+#wins {
+	font-size: 36pt;
+	width: 193px;
+	height: 50px;
+	top: -115px;
+	color: #7ba;
+	margin-left: 7px;
+	position: relative;
+	text-align: center;
+}
